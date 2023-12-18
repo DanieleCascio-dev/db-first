@@ -1,0 +1,15 @@
+Cars
+
+id INT - UNISIGNED - PRIMARY_KEY - AUTOINCREMENT
+model - VARCHAR (255) - NOTNULL
+brand - VARCHAR (255) - NOTNULL
+price - DECIMAL (9,3) - NOTNULL
+discount_percentage - DECIMAL (5,2) - NULL - DEFAULT(0)
+car_year - YEAR -NOTNULL
+car_registration - VARCHAR(255) - NOTNULL
+kilometer - DECIMAL (9,2) - NOTNULL
+fuel - VARCHAR(16) - NOTNULL
+hybrid - TINYINT - NOTNULL
+transmission VARCHAR(16) - NULL
+accident - TINYINT - NOTNULL
+
