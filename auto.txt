@@ -4,12 +4,17 @@ id INT - UNISIGNED - PRIMARY_KEY - AUTOINCREMENT
 model - VARCHAR (255) - NOTNULL
 brand - VARCHAR (255) - NOTNULL
 price - DECIMAL (9,3) - NOTNULL
+seller - VARCHAR(255) - NOTNULL
+seller_location - VARCHAR(255) NULL
 discount_percentage - DECIMAL (5,2) - NULL - DEFAULT(0)
 car_year - YEAR -NOTNULL
 car_registration - VARCHAR(255) - NOTNULL
 kilometer - DECIMAL (9,2) - NOTNULL
-fuel - VARCHAR(16) - NOTNULL
+fuel_type - VARCHAR(16) - NOTNULL
 hybrid - TINYINT - NOTNULL
-transmission VARCHAR(16) - NULL
+power_kw - INT - NOTNULL
+type_of_transmission VARCHAR(16) - NULL
 accident - TINYINT - NOTNULL
-
+previous_owner - INT NOTNULL
+seats - INT - NULL
+doors - INT - NULL
